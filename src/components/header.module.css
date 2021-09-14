@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom:50px;
+    font-size: 73px;
+}
+
+.menuContainer {
+    display: flex;
+    flex-direction: row;
+    padding-top: 8px;
+    font-size: 20px;
+}
+
+.menuContainer p:not(:last-child) {
+    padding-right: 10px
+}
+
+.menuContainer p:nth-child(2n-1) {
+    color: grey;
+}
+
+.menuContainer p:nth-child(2n-1):hover {
+    color: #313639;
+    cursor: pointer;
+}
